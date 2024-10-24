@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Chargers';
+    src: url('./Font/Supercharge-JRgPo.otf');
+}
+
+@font-face {
+    font-family: 'Jetbrains';
+    src: url('./Font/JetBrainsMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Font/Roboto-Regular.ttf');
+}
+
+body {
+    background-image: url('./Photos/Chargers-Offense.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Logo {
+    display: none;
+}
+
+.container {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 40px;
+}
+
+.photo {
+    border: solid 2px;
+    margin: 50px;
+    color: rgb(255, 194, 14);
+}
+
+.bio {
+    width: 60%;
+    font-family: 'Roboto';
+    color: rgb(255, 194, 14);
+    border: solid 2px;
+    padding: 50px;
+}
+
+.unList {
+    color: rgb(255, 194, 14);
+    text-align: center;
+    font-family: 'Roboto';
+    margin: 10px;
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background: rgb(0, 128, 198);
+    font-family: 'Roboto';
+    padding: 15px;
+    color: white;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navdiv li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 194, 14);
+}
+
+.navdiv li a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+/* Media Queries */
+
+
+/* 540px and Below | Phones */
+@media only screen and (max-width: 540px) {
+
+    body {
+        background: none;
+        background-color: rgb(0, 128, 198);
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .bio {
+        padding: 10%;
+        width: 90vw;
+    }
+
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .unList {
+        text-align: center;
+        width: 90vw;
+        margin-top: 20%;
+    }
+    
+    .navbar {
+        border: solid 2px rgb(255, 194, 14);
+    }
+
+    .Logo {
+        display: block;
+        float: right;
+        clear: both;
+    }
+}
+
+/* Medium Sized Screens | Tablets */
+@media only screen and (max-width:1280px)  and (min-width:1024px){
+
+    .photo {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Logo {
+        display: block;
+        float: right;
+    }
+}
+
+/* Medium Tablets */
+@media only screen and (max-width:912px) and (min-width:768px) {
+    .photo {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    .container2 {
+        width: 100vw;
+    }
+    
+    .container2 {
+        display: none;
+    }
+
+
+
+}
+
+
+
+
+

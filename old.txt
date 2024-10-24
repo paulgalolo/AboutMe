@@ -1,0 +1,52 @@
+.bio {
+    font-family: Roboto;
+    color: rgb(255, 194, 14);
+    border: solid 3px;
+    padding: 30px;
+    width: 40%;
+    margin: 50px;
+}
+
+.unList {
+    color: rgb(255, 194, 14);
+    text-align: center;
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background: rgb(0, 128, 198);
+    font-family: Roboto;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navdiv li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navdiv li a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
